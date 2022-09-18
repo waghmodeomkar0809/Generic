@@ -2,9 +2,11 @@
 using GenericProb;
 using System;
 Console.WriteLine("Hello, World!");
-string a = "Apple";
-string b = "peach";
-string c = "banana";
+int a = 10;
+int b = 20;
+int c = 30;
 MaxNumber maxNumber = new MaxNumber();
-Console.WriteLine(maxNumber.PrintdMaxNumber(a,b,c));
+//Console.WriteLine(maxNumber.PrintdMaxNumber(a,b,c));
+int val = maxNumber.PrintdMaxNumber<int>(a, b, c);
+Console.WriteLine("Max Number is: "+val);
 Console.ReadLine();
