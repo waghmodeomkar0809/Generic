@@ -8,7 +8,7 @@ namespace GenericProb
 {
     public class MaxNumber
     {
-        public int ThirdMaxNumber(int num1, int num2, int num3)
+        public float PrintdMaxNumber(float num1, float num2, float num3)
         {
             if (num1.CompareTo(num2) > 0 && num1.CompareTo(num3) > 0
               || num1.CompareTo(num2) >=0 && num1.CompareTo(num3) > 0

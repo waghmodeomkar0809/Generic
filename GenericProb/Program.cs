@@ -2,9 +2,9 @@
 using GenericProb;
 using System;
 Console.WriteLine("Hello, World!");
-int a = 40;
-int b = 50;
-int c = 70;
+float a = 40f;
+float b = 50f;
+float c = 70f;
 MaxNumber maxNumber = new MaxNumber();
-Console.WriteLine(maxNumber.ThirdMaxNumber(a,b,c));
+Console.WriteLine(maxNumber.PrintdMaxNumber(a,b,c));
 Console.ReadLine();
